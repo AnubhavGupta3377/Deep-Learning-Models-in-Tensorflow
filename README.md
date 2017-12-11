@@ -27,4 +27,4 @@ the one-hot row-vector ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7
 
 where ![](https://latex.codecogs.com/gif.latex?L) is the embedding matrix, ![](https://latex.codecogs.com/gif.latex?I) the input word representation matrix, ![](https://latex.codecogs.com/gif.latex?H) the hidden transformation
 matrix, and ![](https://latex.codecogs.com/gif.latex?U) is the output word representation matrix.  ![](https://latex.codecogs.com/gif.latex?b_1) and  ![](https://latex.codecogs.com/gif.latex?b_2) are biases. ![](https://latex.codecogs.com/gif.latex?d) is the embedding dimension,
-https://latex.codecogs.com/gif.latex?%7CV%7C is the vocabulary size, and ![](https://latex.codecogs.com/gif.latex?D_h) is the hidden layer dimension.
+![](https://latex.codecogs.com/gif.latex?%7CV%7C) is the vocabulary size, and ![](https://latex.codecogs.com/gif.latex?D_h) is the hidden layer dimension.
