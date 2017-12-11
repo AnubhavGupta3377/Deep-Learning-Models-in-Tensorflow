@@ -23,4 +23,8 @@
 where ![](https://latex.codecogs.com/gif.latex?h%5E%7B%280%29%7D%20%3D%20h_0%20%5Cin%20%5Cmathcal%7BR%7D%5E%7BD_h%7D) is some initialization vector for the hidden layer and ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7DL) is the product of L with
 the one-hot row-vector ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7D) representing index of the current word. The parameters are:
 
-![](https://latex.codecogs.com/gif.latex?%5C%5CL%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%20%5Ctimes%20d%7D%20%5Chspace%7B15pt%7D%20H%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20D_h%7D%20%5Chspace%7B15pt%7D%20I%20%5Cin%20%5Cmathbb%7BR%7D%5E%7Bd%20%5Ctimes%20D_h%7D%5C%5C%20b_1%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%7D%20%5Chspace%7B25pt%7D%20U%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20%7CV%7C%7D%20%5Chspace%7B15pt%7D%20b_2%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%7D)
+![](https://latex.codecogs.com/gif.latex?%5C%5CL%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%20%5Ctimes%20d%7D%20%5Chspace%7B12pt%7D%20H%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20D_h%7D%20%5Chspace%7B12pt%7D%20I%20%5Cin%20%5Cmathbb%7BR%7D%5E%7Bd%20%5Ctimes%20D_h%7D%20%5Chspace%7B12pt%7D%20b_1%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%7D%20%5Chspace%7B12pt%7D%20U%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20%7CV%7C%7D%20%5Chspace%7B12pt%7D%20b_2%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%7D)
+
+where L is the embedding matrix, I the input word representation matrix, H the hidden transformation
+matrix, and U is the output word representation matrix. !{}(https://latex.codecogs.com/gif.latex?b_1) and !{}(https://latex.codecogs.com/gif.latex?b_2) are biases. d is the embedding dimension,
+|V| is the vocabulary size, and ![](https://latex.codecogs.com/gif.latex?D_h) is the hidden layer dimension.
