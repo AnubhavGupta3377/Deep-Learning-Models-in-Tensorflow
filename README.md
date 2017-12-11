@@ -25,6 +25,6 @@ the one-hot row-vector ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7
 
 ![](https://latex.codecogs.com/gif.latex?%5C%5CL%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%20%5Ctimes%20d%7D%20%5Chspace%7B12pt%7D%20H%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20D_h%7D%20%5Chspace%7B12pt%7D%20I%20%5Cin%20%5Cmathbb%7BR%7D%5E%7Bd%20%5Ctimes%20D_h%7D%20%5Chspace%7B12pt%7D%20b_1%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%7D%20%5Chspace%7B12pt%7D%20U%20%5Cin%20%5Cmathbb%7BR%7D%5E%7BD_h%20%5Ctimes%20%7CV%7C%7D%20%5Chspace%7B12pt%7D%20b_2%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%7D)
 
-where L is the embedding matrix, I the input word representation matrix, H the hidden transformation
-matrix, and U is the output word representation matrix. !{}(https://latex.codecogs.com/gif.latex?b_1) and !{}(https://latex.codecogs.com/gif.latex?b_2) are biases. d is the embedding dimension,
-|V| is the vocabulary size, and ![](https://latex.codecogs.com/gif.latex?D_h) is the hidden layer dimension.
+where ![](https://latex.codecogs.com/gif.latex?L) is the embedding matrix, ![](https://latex.codecogs.com/gif.latex?I) the input word representation matrix, ![](https://latex.codecogs.com/gif.latex?H) the hidden transformation
+matrix, and ![](https://latex.codecogs.com/gif.latex?U) is the output word representation matrix. ![](https://latex.codecogs.com/gif.latex?b_1) and ![](https://latex.codecogs.com/gif.latex?b_2) are biases. ![](https://latex.codecogs.com/gif.latex?d) is the embedding dimension,
+![](https://latex.codecogs.com/gif.latex?|V|) is the vocabulary size, and ![](https://latex.codecogs.com/gif.latex?D_h) is the hidden layer dimension.
