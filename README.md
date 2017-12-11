@@ -1,16 +1,14 @@
-********************************************
-*         Author: Anubhav Gupta            *
-********************************************
+# Author
+* ** Anubhav Gupta
 
   - This is my implementation of recurrent neural network languate model.
     I have coded RNNLM from scratch in Tensorflow.
 
-*****************************************
-*         RNNLM Implementation          *
-*****************************************
-
-  - Python 3.5.4
-  - Tensorflow 1.2.1
+## Prerequisites
+- Python 3.5.4
+- Tensorflow 1.2.1
+  
+## RNNLM Implementation
   
   - Given words $x_1,\cdots , x_t$, a language model predicts the following
     word $x_{t+1}$ by modeling:
