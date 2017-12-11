@@ -19,3 +19,6 @@
   - Formally, the model is, for t = 1, . . . , n-1:
   
 	![](https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign*%7D%20%5Cbegin%7Bsplit%7D%20e%5E%7B%28t%29%7D%20%26%3D%20x%5E%7B%28t%29%7DL%5C%5C%20h%5E%7B%28t%29%7D%20%26%3D%20%5Ctext%7Bsigmoid%7D%28h%5E%7B%28t-1%29%7DH%20&plus;%20e%5E%7B%28t%29%7DI%20&plus;%20b_1%29%5C%5C%20%5Chat%7By%7D%5E%7B%28t%29%7D%20%26%3D%20%5Ctext%7Bsoftmax%7D%28h%5E%7B%28t%29%7DU%20&plus;%20b_2%29%5C%5C%20%5Cbar%7BP%7D%28x_%7Bt&plus;1%7D%20%3D%20v_j%20%7C%20x_t%2C%5Ccdots%2Cx_1%29%20%26%3D%20%5Chat%7By%7D%5E%7B%28t%29%7D%20%5Cend%7Bsplit%7D%20%5Cend%7Balign*%7D)
+
+where ![](https://latex.codecogs.com/gif.latex?h%5E%7B%280%29%7D%20%3D%20h_0%20%5Cin%20%5Cmathcal%7BR%7D%5E%7BD_h%7D) is some initialization vector for the hidden layer and ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7DL) is the product of L with
+the one-hot row-vector ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7D) representing index of the current word. The parameters are:
