@@ -1,4 +1,4 @@
-** This is my implementation of recurrent neural network languate model. I have coded RNNLM from scratch in Tensorflow.**
+## This is my implementation of recurrent neural network languate model. I have coded RNNLM from scratch in Tensorflow.
 
 # Author
 * **Anubhav Gupta**
