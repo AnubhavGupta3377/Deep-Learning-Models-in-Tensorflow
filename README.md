@@ -1,13 +1,7 @@
-## This is my implementation of recurrent neural network languate model. I have coded RNNLM from scratch in Tensorflow.
-
-# Author
-* **Anubhav Gupta**
-
-## Prerequisites
-- Python 3.5.4
-- Tensorflow 1.2.1
+# Project Title
+- This is my implementation of recurrent neural network languate model. I have coded RNNLM from scratch in Tensorflow. Details of the implementation are provided below.
   
-## RNNLM Implementation
+## RNNLM Implementation Details
   
  - Given words ![](https://latex.codecogs.com/gif.latex?x_1%2C%5Ccdots%20%2C%20x_t), a language model predicts the following
     word  ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D) by modeling:
@@ -31,3 +25,10 @@
 	![](https://latex.codecogs.com/gif.latex?J%5E%7B%28t%29%7D%28%5Ctheta%29%20%3D%20%5Ctext%7BCE%7D%28y%5E%7B%28t%29%7D%2C%20%5Chat%7By%7D%5E%7B%28t%29%7D%29%20%3D%20-%5Csum_%7Bi%3D1%7D%5E%7B%7CV%7C%7Dy%5E%7B%28t%29%7D_i%20%5Ctext%7Blog%7D%7E%5Chat%7By%7D%5E%7B%28t%29%7D_i)
 	
 	where ![](https://latex.codecogs.com/gif.latex?y%5E%7B%28t%29%7D) is the one-hot vector corresponding to the target word (which here is equal to ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D).
+
+## Author
+* **Anubhav Gupta**
+
+## Prerequisites
+- Python 3.5.4
+- Tensorflow 1.2.1
