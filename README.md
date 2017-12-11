@@ -10,7 +10,7 @@
 ## RNNLM Implementation
   
  - Given words ![](https://latex.codecogs.com/gif.latex?x_1%2C%5Ccdots%20%2C%20x_t), a language model predicts the following
-    word $x_{t+1}$ by modeling:
+    word  ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D) by modeling:
 	
 	![](https://latex.codecogs.com/gif.latex?P%28x_%7Bt&plus;1%7D%20%3D%20v_j%20%7C%20x_t%2C%5Ccdots%20%2C%20x_1%29)
 
@@ -22,3 +22,4 @@
 
 where ![](https://latex.codecogs.com/gif.latex?h%5E%7B%280%29%7D%20%3D%20h_0%20%5Cin%20%5Cmathcal%7BR%7D%5E%7BD_h%7D) is some initialization vector for the hidden layer and ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7DL) is the product of L with
 the one-hot row-vector ![](https://latex.codecogs.com/gif.latex?x%5E%7B%28t%29%7D) representing index of the current word. The parameters are:
+
