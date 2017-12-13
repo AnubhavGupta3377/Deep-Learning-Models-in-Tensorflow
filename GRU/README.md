@@ -1,5 +1,5 @@
-# Project Title
-- This is my implementation of Gated Recurrent Units. I have coded GRU from scratch in Tensorflow. Details of the implementation are provided below.
+# Gated Recurrent Unit (GRU) for Language Modeling
+- Here, I have implemented GRU from scratch in Tensorflow for language modeling task.
   
 ## GRU Implementation Details
   
