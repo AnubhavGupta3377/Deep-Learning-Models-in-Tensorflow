@@ -21,6 +21,12 @@
      
      - **Output/Exposure Gate:** This is a gate that does not explicitly exist in GRUs. It's purpose is to separate the final memory from the hidden state. The final memory ![](https://latex.codecogs.com/gif.latex?c_t) contains a lot of information that is not necessarily required to be saved in the hidden state. Hidden states are used in every single gate of an LSTM and thus, this gate makes the assessment regarding what parts of the memory ![](https://latex.codecogs.com/gif.latex?c_t) needs to be exposed/present in the hidden state ![](https://latex.codecogs.com/gif.latex?h_t). The signal it produces to indicate this is ![](https://latex.codecogs.com/gif.latex?o_t) and this is used to gate the point-wise tanh of the memory.
 
+ - The output vector ![](https://latex.codecogs.com/gif.latex?%5Chat%7By%7D%5E%7B%28t%29%7D%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%7CV%7C%7D) is a probability distribution over the vocabulary, and we optimize the (unregularized) cross-entropy loss:
+
+	![](https://latex.codecogs.com/gif.latex?J%5E%7B%28t%29%7D%28%5Ctheta%29%20%3D%20%5Ctext%7BCE%7D%28y%5E%7B%28t%29%7D%2C%20%5Chat%7By%7D%5E%7B%28t%29%7D%29%20%3D%20-%5Csum_%7Bi%3D1%7D%5E%7B%7CV%7C%7Dy%5E%7B%28t%29%7D_i%20%5Ctext%7Blog%7D%7E%5Chat%7By%7D%5E%7B%28t%29%7D_i)
+	
+	where ![](https://latex.codecogs.com/gif.latex?y%5E%7B%28t%29%7D) is the one-hot vector corresponding to the target word (which here is equal to ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D).
+  
 ## Author
 * **Anubhav Gupta**
 
