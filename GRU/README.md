@@ -24,7 +24,7 @@
 	
 	where ![](https://latex.codecogs.com/gif.latex?y%5E%7B%28t%29%7D) is the one-hot vector corresponding to the target word (which here is equal to ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D).
 
-- Results
+## Results
   - Some Example sentences generated using the GRU models trained for 16 epochs:
   	1. how to invest N N to N such the government <unk> <eos>
 	2. in palo alto eyes came as more <eos>
