@@ -23,6 +23,13 @@
 	![](https://latex.codecogs.com/gif.latex?J%5E%7B%28t%29%7D%28%5Ctheta%29%20%3D%20%5Ctext%7BCE%7D%28y%5E%7B%28t%29%7D%2C%20%5Chat%7By%7D%5E%7B%28t%29%7D%29%20%3D%20-%5Csum_%7Bi%3D1%7D%5E%7B%7CV%7C%7Dy%5E%7B%28t%29%7D_i%20%5Ctext%7Blog%7D%7E%5Chat%7By%7D%5E%7B%28t%29%7D_i)
 	
 	where ![](https://latex.codecogs.com/gif.latex?y%5E%7B%28t%29%7D) is the one-hot vector corresponding to the target word (which here is equal to ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D).
+
+- Results
+  - Some Example sentences generated using the GRU models trained for 16 epochs:
+  	1. how to invest N N to N such the government <unk> <eos>
+	2. in palo alto eyes came as more <eos>
+	3. is english compensation service inc alone taken me for an <unk> to seek big ownership they can stop the <unk> which issued a resulting deal with the ages in oat soft which had a damage for this life to leading africa and eventually to increase issues more than had about a month earlier floor <eos>
+	4. india is exceptionally long seriously convenience green investment only tourists on lead to chevron he pay nov. N N <eos>
   
 ## Author
 * **Anubhav Gupta**
