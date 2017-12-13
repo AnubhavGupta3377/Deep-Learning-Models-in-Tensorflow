@@ -26,6 +26,13 @@
 	![](https://latex.codecogs.com/gif.latex?J%5E%7B%28t%29%7D%28%5Ctheta%29%20%3D%20%5Ctext%7BCE%7D%28y%5E%7B%28t%29%7D%2C%20%5Chat%7By%7D%5E%7B%28t%29%7D%29%20%3D%20-%5Csum_%7Bi%3D1%7D%5E%7B%7CV%7C%7Dy%5E%7B%28t%29%7D_i%20%5Ctext%7Blog%7D%7E%5Chat%7By%7D%5E%7B%28t%29%7D_i)
 	
 	where ![](https://latex.codecogs.com/gif.latex?y%5E%7B%28t%29%7D) is the one-hot vector corresponding to the target word (which here is equal to ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D).
+
+## Results
+  - Some Example sentences generated using the GRU models trained for 16 epochs:
+  	1. how to prestigious end it revised for $ N <eos>
+	2. in palo alto prepare at the first two years of the <unk> 's foreign issues had an after-tax N N gain with another acquisition of commercial banks <eos>
+	3. india is about $ N chip <unk> and in two years and mercury their usual and block air reports are made $ N is followed that mr. bergsma and the approval on agreement president died the members of bay growth <eos>
+	4. is english into the firm in the nation 's dance <eos>
   
 ## Author
 * **Anubhav Gupta**
