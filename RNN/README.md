@@ -2,8 +2,7 @@
   
 ## RNNLM Implementation Details
   
- - Given words ![](https://latex.codecogs.com/gif.latex?x_1%2C%5Ccdots%20%2C%20x_t), a language model predicts the following
-    word  ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D) by modeling:
+ - Given words ![](https://latex.codecogs.com/gif.latex?x_1%2C%5Ccdots%20%2C%20x_t), a language model predicts the following word  ![](https://latex.codecogs.com/gif.latex?x_%7Bt&plus;1%7D) by modeling:
 	
 	![](https://latex.codecogs.com/gif.latex?P%28x_%7Bt&plus;1%7D%20%3D%20v_j%20%7C%20x_t%2C%5Ccdots%20%2C%20x_1%29)
 
