@@ -1,4 +1,4 @@
-# Project Title
+# Deep Learning Models in Tensorflow
 - This is my implementation of some deep learning models from scratch in Tensorflow
   
 ## Implemented Models
